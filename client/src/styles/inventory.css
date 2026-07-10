@@ -1,0 +1,65 @@
+.inventory-container{
+    padding:40px;
+}
+
+.inventory-container h1{
+    margin-bottom:30px;
+}
+
+.inventory-form{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:15px;
+    margin-bottom:40px;
+}
+
+.inventory-form input{
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.inventory-form button{
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.inventory-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.inventory-card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.inventory-card h2{
+    margin-bottom:15px;
+}
+
+.inventory-card p{
+    margin:8px 0;
+}
+
+.low-stock{
+    border-left:6px solid #ef4444;
+}
+
+.warning{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 12px;
+    border-radius:8px;
+    background:#fee2e2;
+    color:#dc2626;
+    font-weight:600;
+}
